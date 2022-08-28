@@ -1,0 +1,9 @@
+<div class="wrapper">
+  <app-diagram [url]="diagramUrl" (importDone)="handleImported($event)"></app-diagram>
+
+  <div class="functions">
+    <button (click)="exportXml()">Save XML</button>
+
+  </div>
+
+</div>
